@@ -1,0 +1,11 @@
+.cover__image {
+  z-index: -2;
+  width: 100%;
+  max-height: 740px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__image {
+    max-height: 480px;
+  }
+}
