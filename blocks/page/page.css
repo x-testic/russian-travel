@@ -1,4 +1,16 @@
 .page {
   background-color: #2a2c2f;
   margin: 0;
+  -webkit-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
