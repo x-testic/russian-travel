@@ -17,15 +17,11 @@
   }
 }
 
-@media screen and (max-width: 640px) { 
+@media screen and (max-width: 640px) {
   .place__title {
     width: 90%;
     margin: 0 auto;
     font-size: 32px;
     line-height: 35px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
   }
 }
