@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(4, fit-content(284px));
   grid-template-rows: repeat(3, fit-content(213px));
-  grid-gap: 16px;
+  gap: 16px;
   margin: 0;
   padding: 0;
   line-height: 0;
@@ -13,7 +13,7 @@
   .photo-grid__list {
     grid-template-columns: repeat(3, fit-content(300px));
     grid-template-rows: repeat(4, fit-content(225px));
-    grid-gap: 14px;
+    gap: 14px;
   }
 }
 
@@ -21,7 +21,7 @@
   .photo-grid__list {
     grid-template-columns: repeat(2, fit-content(352px));
     grid-template-rows: repeat(6, fit-content(264px));
-    grid-gap: 16px;
+    gap: 16px;
   }
 }
 
@@ -29,6 +29,6 @@
   .photo-grid__list {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
-    grid-gap: 12px;
+    gap: 12px;
   }
 }
